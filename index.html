@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Awareness</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Light cyan background */
+            color: #00695c; /* Dark teal text */
+        }
+
+        header {
+            background: linear-gradient(to right, #00bcd4, #004d40); /* Gradient background */
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-top: 0;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .call-to-action {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #004d40;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .call-to-action:hover {
+            background-color: #009688;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .image-section {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .image-section img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.5s ease;
+        }
+
+        .image-section img:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #004d40;
+            font-size: 2.5em;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .solutions-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .solutions-list li {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+
+        .solutions-list li:before {
+            content: "✔️";
+            margin-right: 10px;
+            color: #009688;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Environmental Awareness Website!</h1>
+        <p>Join us in spreading awareness and taking action to protect our planet.</p>
+        <a href="#action" class="call-to-action">Join the Movement</a>
+    </header>
+
+    <section id="about">
+        <h2>About Environmental Awareness</h2>
+        <div class="content">
+            <p>Environmental awareness is the understanding of the importance of preserving and protecting the environment. It includes recognizing the effects of human activity on the planet and taking steps to reduce harm. By being more conscious of our actions, we can reduce pollution, conserve natural resources, and ensure a sustainable future for generations to come.</p>
+            <p>Many of the issues we face today, such as climate change, pollution, deforestation, and biodiversity loss, stem from human activity. It's critical that we not only understand these challenges but also take meaningful steps to combat them.</p>
+        </div>
+    </section>
+
+    <section id="challenges">
+        <h2>Current Environmental Challenges</h2>
+        <div class="content">
+            <ul>
+                <li><strong>Climate Change:</strong> The earth’s climate is warming due to the burning of fossil fuels, deforestation, and industrial activities.</li>
+                <li><strong>Pollution:</strong> Air, water, and soil pollution are major concerns. Improper waste disposal and industrial emissions contribute to the degradation of our environment.</li>
+                <li><strong>Deforestation:</strong> Forests are being cleared at alarming rates for agriculture, urbanization, and mining, contributing to habitat loss and climate change.</li>
+                <li><strong>Loss of Biodiversity:</strong> Human activity is leading to the extinction of species at a rapid rate, disrupting ecosystems and food chains.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="solutions">
+        <h2>Solutions for a Better Planet</h2>
+        <div class="content">
+            <p>We all have a role to play in protecting the environment. Below are some solutions that can help reduce the impact of human activity on the planet:</p>
+            <ul class="solutions-list">
+                <li>Adopt sustainable energy sources, like solar or wind energy, to reduce reliance on fossil fuels.</li>
+                <li>Reduce waste by recycling, composting, and reusing products instead of sending them to landfills.</li>
+                <li>Support reforestation efforts by planting trees and protecting existing forests.</li>
+                <li>Promote water conservation by using less water in daily activities and supporting clean water initiatives.</li>
+                <li>Encourage green transportation options such as biking, walking, and using public transit.</li>
+                <li>Reduce meat consumption to lower the environmental impact of animal agriculture.</li>
+                <li>Support environmental organizations and participate in community clean-ups or advocacy efforts.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="action">
+        <h2>How You Can Help</h2>
+        <div class="content">
+            <p>Small actions can make a big difference. Here are some ways you can help fight climate change and protect the environment:</p>
+            <ul class="solutions-list">
+                <li>Reduce your carbon footprint by using energy-efficient appliances and driving less.</li>
+                <li>Switch to reusable items like water bottles, bags, and containers to cut down on plastic waste.</li>
+                <li>Support businesses that are committed to sustainability and environmentally friendly practices.</li>
+                <li>Educate yourself and others about environmental issues and their impact.</li>
+            </ul>
+            <p>It’s time to take responsibility for our planet’s future. Let’s take action today to secure a better tomorrow.</p>
+        </div>
+    </section>
+
+    <section class="image-section">
+        <img src="https://via.placeholder.com/800x400?text=Save+Our+Planet" alt="Environmental Awareness">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Environmental Awareness. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+  
